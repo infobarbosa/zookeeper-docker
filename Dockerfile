@@ -10,16 +10,15 @@ RUN apk add --no-cache wget bash \
     && mkdir /opt \
     && wget -q -O - $MIRROR/zookeeper/zookeeper-$VERSION/zookeeper-$VERSION.tar.gz | tar -xzf - -C /opt \
     && mv /opt/zookeeper-$VERSION /opt/zookeeper \
-    && mkdir -p /tmp/zookeeper/scripts \
+    && cp /opt/zookeeper/conf/zoo_sample.cfg /opt/zookeeper/conf/zoo.cfg \
+    && mkdir -p /tmp/zookeeper \
     && mkdir -p /opt/zookeeper/data \
-    && mkdir -p /var/zookeeper/logs \
-
-COPY scripts/start-zookeeper.sh /tmp/zookeeper/scripts/
+    && mkdir -p /var/zookeeper/logs
 
 EXPOSE 2181 2888 3888
 
-WORKDIR /tmp/zookeeper
+WORKDIR /opt/zookeeper
 
-ENTRYPOINT ["/tmp/scripts/zookeeper/start-zookeeper.sh"]
+ENTRYPOINT ["bin/zkServer.sh"]
 CMD ["start-foreground"]
 
