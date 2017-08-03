@@ -3,7 +3,7 @@ Imagem do ZooKeeper para Docker
 
 Antes de começar! Este projeto faz parte de um laboratório de big data. Leia mais sobre isso no gist a seguir:
 
-<script src="https://gist.github.com/infobarbosa/c7bddaaec6d485324c2518e6deafaded.js"></script>
+https://gist.github.com/infobarbosa/c7bddaaec6d485324c2518e6deafaded.js
 
 Por enquanto estou trabalhando com um assembly standalone entao o comando seria: 
 
