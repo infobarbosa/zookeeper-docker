@@ -1,6 +1,10 @@
 # zookeeper-docker
 Imagem do ZooKeeper para Docker
 
+Antes de começar! Este projeto faz parte de um laboratório de big data. Leia mais sobre isso no gist a seguir:
+
+<script src="https://gist.github.com/infobarbosa/c7bddaaec6d485324c2518e6deafaded.js"></script>
+
 Por enquanto estou trabalhando com um assembly standalone entao o comando seria: 
 
 docker run [OPCOES] infobarbosa/zookeeper:standalone
