@@ -1,7 +1,10 @@
-# zookeeper-docker
+zookeeper-docker
+====================
 Imagem do ZooKeeper para Docker
 
-Antes de começar! Este projeto faz parte de um laboratório de big data. Leia mais sobre isso no gist a seguir:
+##Antes de começar! 
+Este projeto faz parte de um laboratório de big data.<br/>
+Leia mais sobre isso no gist a seguir:
 
 https://gist.github.com/infobarbosa/c7bddaaec6d485324c2518e6deafaded
 
