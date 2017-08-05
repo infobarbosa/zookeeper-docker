@@ -2,7 +2,7 @@ zookeeper-docker
 ====================
 Imagem do ZooKeeper para Docker
 
-##Antes de começar! 
+## Antes de começar! 
 Este projeto faz parte de um laboratório de big data.<br/>
 Leia mais sobre isso no gist a seguir:
 
